@@ -1,7 +1,6 @@
 -module(vmq_clienttopics).
 
--include("../../../_build/default/lib/vernemq_dev/inclu"
-	 "de/vernemq_dev.hrl").
+-include("vernemq_dev.hrl").
 
 -behaviour(on_register_hook).
 
