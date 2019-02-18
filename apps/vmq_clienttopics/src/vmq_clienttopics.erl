@@ -1,4 +1,10 @@
 -module(vmq_clienttopics).
+<<<<<<< HEAD
+=======
+
+-include("vernemq_dev.hrl").
+
+>>>>>>> 34a98b16cf48d7fadfaa0137828e091fbf6bf630
 -behaviour(on_register_hook).
 -behaviour(on_client_wakeup_hook).
 -behaviour(on_client_offline_hook).
